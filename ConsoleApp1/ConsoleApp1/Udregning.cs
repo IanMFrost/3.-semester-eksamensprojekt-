@@ -20,10 +20,5 @@ namespace ConsoleApp1
         {
             return x + y;
         }
-
-        public double Minus (double x, double y)
-        {
-            return x - y;
-        }
     }
 }

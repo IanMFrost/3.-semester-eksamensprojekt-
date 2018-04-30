@@ -45,16 +45,5 @@ namespace ConsoleApp1.Tests
 
             Assert.AreEqual(expectedvalue, actualvalue);
         }
-        [TestMethod()]
-        public void MinusTest()
-        {
-            Udregning udregning = new Udregning();
-
-            double actualvalue = udregning.Minus(4, 2);
-            double expectedvalue = 2;
-
-            Assert.AreEqual(expectedvalue, actualvalue);
-        }
     }
-
 }
