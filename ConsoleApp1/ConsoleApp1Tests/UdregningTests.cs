@@ -40,8 +40,8 @@ namespace ConsoleApp1.Tests
         {
             Udregning udregning = new Udregning();
 
-            double actualvalue = udregning.Plus(4, 2);
-            double expectedvalue = 6;
+            double actualvalue = udregning.Plus(2, 2);
+            double expectedvalue = 4;
 
             Assert.AreEqual(expectedvalue, actualvalue);
         }
